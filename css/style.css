@@ -1,0 +1,83 @@
+*{
+	margin: 0px;
+}
+
+
+
+body {
+	font-family: 'Roboto', sans-serif;
+	background:url(../img/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+
+.container {
+    width: 650px;
+    margin: 10% auto;
+}
+
+/* Admin Form */
+
+.login-section {
+    background-color: #b7a69f;
+    padding: 25px;
+}
+
+
+.login-section img {
+    margin: 0 auto;
+    width: 150px;
+    display: block;
+}
+
+
+.login-section h2{
+	
+	color: #fff;
+		
+	text-align: center;
+		
+	font-size: 32px;
+		
+	margin: 10px 0px;
+}
+
+.form-control {
+
+	width: 96%;
+
+	height: 25px;
+
+	padding: 5px;
+
+	margin: 5px 0px;
+}
+
+.btn {
+	
+	margin: 10px auto;
+		
+	display: block;
+		
+	background: darkred;
+		
+	color: #fff;
+		
+	padding: 8px 16px;
+		
+	border: none;
+	text-transform: uppercase;
+	transition: 0.8s ease-in-out;
+	-webkit-transition: 0.8s ease-in-out;
+	-moz-transition: 0.8s ease-in-out;
+	-o-transition: 0.8s ease-in-out;
+		
+}
+
+
+.btn:hover {
+	box-shadow: 2px 2px 4px #F44336;
+	cursor: pointer;
+}
